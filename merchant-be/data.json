@@ -1,0 +1,24 @@
+{
+    "lkasdjjklashd": {
+      "items" : [
+        {
+          "UPC" : 1010100,
+          "Name" : "REDBULL",
+          "Price" : 10.00,
+          "Quantity" : 1
+        },
+        {
+          "UPC" : 102353456,
+          "Name" : "Donuts",
+          "Price" : 5.00,
+          "Quantity" : 10
+        },
+        {
+          "UPC" : 10900356,
+          "Name" : "Coffee",
+          "Price" : 15.14,
+          "Quantity" : 5
+        }
+      ]
+    }
+  }
