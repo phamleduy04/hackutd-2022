@@ -43,3 +43,6 @@ barcode/package-lock.json
 merchant-be/package-lock.json
 merchant-be/.env
 merchant-be/pnpm-lock.yaml
+
+system-be/node_modules/*
+system-be/dist/*

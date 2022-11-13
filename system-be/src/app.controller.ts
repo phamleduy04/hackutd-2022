@@ -1,4 +1,4 @@
-import { Controller, Get, Post } from '@nestjs/common';
+import { Controller, Get, Query, BadRequestException } from '@nestjs/common';
 import { AppService } from './app.service';
 
 @Controller()
@@ -11,8 +11,10 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Post('/upload')
-  upload(): string {
-    return 'upload';
-  };
+  @Get('reciept')
+  getReciept(@Query() query: { id: string }): any {
+    const id = query.id;
+    if (!id) throw new BadRequestException('id is required');
+    return this.appService.getReciept(id);
+  }
 }

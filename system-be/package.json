@@ -30,7 +30,8 @@
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^7.2.0",
-    "sypht-node-client": "^0.11.4"
+    "sypht-node-client": "^0.11.4",
+    "undici": "^5.12.0"
   },
   "devDependencies": {
     "@nestjs/cli": "^9.0.0",

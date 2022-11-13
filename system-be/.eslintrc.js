@@ -12,7 +12,7 @@ module.exports = {
 		'prettier',
 	],
 	"parserOptions": {
-		"project": "tsconfig.json",
+		"project": "system-be/tsconfig.json",
 		"sourceType": "module",
 	},
 	"rules": {
