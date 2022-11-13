@@ -36,3 +36,4 @@ lerna-debug.log*
 
 .env
 */.env
+merchant-be/node_modules/*
