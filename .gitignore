@@ -37,3 +37,6 @@ lerna-debug.log*
 .env
 */.env
 merchant-be/node_modules/*
+barcode/node_modules/*
+barcode/.expo
+barcode/package-lock.json
